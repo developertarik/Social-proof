@@ -21,9 +21,38 @@ body{
    background-color :hsl(300, 24%, 96%);
     width: 400px;
     height: 50px;
-    }
+    display: flex;
+    gap: 10px;
+    align-items: center;   
+    justify-content: center;
+}
     .boxes{
         display: flex;
         gap: 25px;
         flex-direction: column;
+    }
+    .b-2{
+        left: 50px;
+        position: relative;
+    }
+    .b-3{
+        left: 100px;
+        position: relative;
+    }
+
+    .persona{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .boxers{
+        background-color: hsl(300, 43%, 22%);
+        color:white;
+        padding:20px;
+        width:300px;
+     }
+   .imgs{
+    width: 50px;
+
+        border-radius: 100px;
     }

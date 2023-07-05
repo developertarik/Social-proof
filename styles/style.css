@@ -46,6 +46,7 @@ body{
         display: flex;
         flex-direction: row;
         gap: 50px;
+       margin-bottom:50px;
     }
     .boxers{
         background-color: hsl(300, 43%, 22%);

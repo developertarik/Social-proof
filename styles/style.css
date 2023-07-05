@@ -16,6 +16,7 @@ body{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap:50px;
 }
 .box{
    background-color :hsl(300, 24%, 96%);
@@ -60,4 +61,13 @@ body{
     }
     .spann{
         color: hsl(333, 80%, 67%);
+    }
+
+    .c-1{
+        position: relative;
+        bottom:20px;
+    }
+    .c-3{
+        position:relative;
+        top:20px;
     }

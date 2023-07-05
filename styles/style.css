@@ -50,9 +50,14 @@ body{
         color:white;
         padding:20px;
         width:300px;
+        font-size: 16px;
+        border-radius: 10px;
      }
    .imgs{
     width: 50px;
 
         border-radius: 100px;
+    }
+    .spann{
+        color: hsl(333, 80%, 67%);
     }
